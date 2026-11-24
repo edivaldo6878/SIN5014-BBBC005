@@ -1,0 +1,39 @@
+{
+  "status": "AUDITORIA OK",
+  "pares": 600,
+  "hashes_manifesto_distintos": 1200,
+  "sha256_entradas": {
+    "manifest": "7f8a8f2605fbcf161db426743d7dccc6f125a51b8e33f3c200c03b5bdeec2932",
+    "legacy": "0616288f3ef62a0b1fbb814b97d483daf02998eb39409b62d5c5aa8afe7c704a",
+    "individual": "9eba9b66a0dd8663c81aebcbb06b68cb41e88c15e859d29285e5c3875561497d",
+    "summary": "ff5815d950997f15c5380c10aab0e51b7b0d8c7e396ef8df6411f4e369ee5ecc",
+    "environment": "83fade1b6f3b3d9430c643856712276f24c6fe0187239b6d05b3b62c8fea2ac2"
+  },
+  "bootstrap_seed": 0,
+  "bootstrap_1000": [
+    14.696250000000001,
+    17.121708333333334
+  ],
+  "bootstrap_2000": [
+    14.691541666666666,
+    17.258666666666663
+  ],
+  "wilcoxon_estatistica": 10.5,
+  "wilcoxon_p": 2.7597131786243804e-91,
+  "spearman_contagem_erro_abs": 0.9698996122950811,
+  "reducao_mae_pct": 56.75528783006476,
+  "ambiente_auditoria": {
+    "python": "3.13.18",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scipy": "1.18.1"
+  },
+  "limites": [
+    "No TIFF bytes audited here; manifest entries only.",
+    "N8 uses privileged reference mask.",
+    "Dice and IoU measure binary foreground before Watershed.",
+    "No historical per-image CSV available for comparison.",
+    "Retrospective internal split; not external validation.",
+    "Bootstrap resamples individual images; no population-level generalization."
+  ]
+}
