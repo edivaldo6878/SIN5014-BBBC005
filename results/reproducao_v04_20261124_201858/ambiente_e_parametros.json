@@ -1,0 +1,19 @@
+{
+  "python": "3.13.18 | packaged by conda-forge | (main, Oct 26 2026, 11:30:40) [MSC v.1944 64 bit (AMD64)]",
+  "plataforma": "Windows-10-10.0.19045-SP0",
+  "processador": "Intel64 Family 6 Model 94 Stepping 3, GenuineIntel",
+  "regra_parametros": "min_distance=round(r/2), r=sqrt(mediana(area N8)/pi); pico=0.3*max(dist)",
+  "cellpose": {},
+  "bootstrap_IC95_MAE_watershed": [
+    14.696250000000001,
+    17.121708333333334
+  ],
+  "wilcoxon_N8_vs_watershed_p": 2.7597131786243804e-91,
+  "bibliotecas": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "skimage": "0.26.0",
+    "pandas": "3.1.0"
+  },
+  "arquivos_duplicados_por_hash": 0
+}
