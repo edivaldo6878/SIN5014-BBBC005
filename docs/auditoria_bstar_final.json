@@ -1,0 +1,46 @@
+{
+  "alpha": 0.35,
+  "b5_controls": 600,
+  "beta": 0.2,
+  "bootstrap_intervals_recalculated": 32,
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 0,
+  "calibration_absolute_error_sums": {
+    "B1": 1634,
+    "B2": 1646,
+    "B3": 1794,
+    "B4": 2001,
+    "B5": 2010,
+    "B6": 2139,
+    "B7": 2341,
+    "B8": 2348,
+    "B9": 2462
+  },
+  "calibration_rows": 1080,
+  "consolidated_rows": 3600,
+  "evidence_sha256": "d63f3e19bcf4cb1ce28f6ecdac8780731bc9041d7de4029935b98dea6662a06b",
+  "scope": "Auditoria de arquivos e resultados existentes; sem nova inferencia; validacao interna retrospectiva",
+  "selected": "B1",
+  "status": "APROVADO",
+  "summary_rows": 72,
+  "validation_bstar_minus_b": {
+    "contraste": "Bstar-B",
+    "delta_mae": "-3.1645833333333333",
+    "empate": "122",
+    "grupo": "Todas",
+    "ic95_inf": "-3.3396354166666664",
+    "ic95_sup": "-2.9895833333333335",
+    "melhor": "349",
+    "n_imagens": "480",
+    "pior": "9"
+  },
+  "validation_mae": {
+    "A": 36.775,
+    "B": 15.704166666666667,
+    "Bstar": 12.539583333333333,
+    "C0": 24.325,
+    "C1": 20.435416666666665,
+    "Cstar": 23.670833333333334
+  },
+  "validation_rows": 960
+}

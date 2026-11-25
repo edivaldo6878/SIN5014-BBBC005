@@ -1,1 +1,144 @@
 legacy/experimento_bbbc005.py -text
+# SIN5014 - byte preservation for final audited artifacts
+/results/entrega_final_20261125_104334/SHA256SUMS.txt -text
+/results/entrega_final_20261125_104334/comparacoes_pareadas.csv -text
+/results/entrega_final_20261125_104334/contagem_por_nivel.png -text
+/results/entrega_final_20261125_104334/exemplo_C10_s06.png -text
+/results/entrega_final_20261125_104334/exemplo_C48_s06.png -text
+/results/entrega_final_20261125_104334/exemplo_C91_s06.png -text
+/results/entrega_final_20261125_104334/grade_calibracao.png -text
+/results/entrega_final_20261125_104334/inputs/cellpose_completo_20261124_214400/por_imagem_cellpose.csv -text
+/results/entrega_final_20261125_104334/inputs/cellpose_cstar_calibracao_20261125_081650/por_imagem_cellpose.csv -text
+/results/entrega_final_20261125_104334/inputs/cellpose_cstar_validacao_20261125_083155/por_imagem_cellpose.csv -text
+/results/entrega_final_20261125_104334/inputs/docs/protocolo_watershed_bstar.md -text
+/results/entrega_final_20261125_104334/inputs/manifestos/manifest_f1_w2.csv -text
+/results/entrega_final_20261125_104334/inputs/reproducao_v04_20261124_201858/por_imagem.csv -text
+/results/entrega_final_20261125_104334/inputs/scripts/executar_watershed_bstar_v1.py -text
+/results/entrega_final_20261125_104334/inputs/scripts/fechar_experimentos_sin5014.py -text
+/results/entrega_final_20261125_104334/mae_validacao.png -text
+/results/entrega_final_20261125_104334/por_imagem_bstar.csv -text
+/results/entrega_final_20261125_104334/protocolo.json -text
+/results/entrega_final_20261125_104334/resultados_seis_metodos.csv -text
+/results/entrega_final_20261125_104334/resumo_bstar.csv -text
+/results/entrega_final_20261125_104334/resumo_seis_metodos.csv -text
+/results/watershed_bstar_calibracao_20261125_095745/por_imagem_bstar.csv -text
+/results/watershed_bstar_calibracao_20261125_095745/protocolo.json -text
+/results/watershed_bstar_calibracao_20261125_095745/ranking_calibracao.csv -text
+/results/watershed_bstar_calibracao_20261125_095745/resumo_por_grupo.csv -text
+/results/watershed_bstar_calibracao_20261125_095745/selecao_bstar.json -text
+/scripts/executar_watershed_bstar_v1.py -text
+/scripts/fechar_experimentos_sin5014.py -text
+# SIN5014 - exact scientific artifact bytes
+/.gitattributes -text -filter -working-tree-encoding -ident
+/.gitignore -text -filter -working-tree-encoding -ident
+/README.md -text -filter -working-tree-encoding -ident
+/data/manifestos/manifest_f1_w2.csv -text -filter -working-tree-encoding -ident
+/docs/GUIA_REPRODUCAO.md -text -filter -working-tree-encoding -ident
+/docs/README_historico.md -text -filter -working-tree-encoding -ident
+/docs/SHA256SUMS_EVIDENCIAS.txt -text -filter -working-tree-encoding -ident
+/docs/adendo_metodologico_cellpose.md -text -filter -working-tree-encoding -ident
+/docs/auditoria_bstar_final.json -text -filter -working-tree-encoding -ident
+/docs/decisao_experimental_cstar.md -text -filter -working-tree-encoding -ident
+/docs/protocolo_watershed_bstar.md -text -filter -working-tree-encoding -ident
+/docs/proveniencia_reproducao_preliminar.txt -text -filter -working-tree-encoding -ident
+/environment/conda_classic_windows.txt -text -filter -working-tree-encoding -ident
+/environment/hardware_windows.txt -text -filter -working-tree-encoding -ident
+/environment/requirements_cellpose_cpu.txt -text -filter -working-tree-encoding -ident
+/legacy/SHA256SUMS.txt -text -filter -working-tree-encoding -ident
+/legacy/experimento_bbbc005.py -text -filter -working-tree-encoding -ident
+/reprodutibilidade/figuras/figuras/contagens_EN.pdf -text -filter -working-tree-encoding -ident
+/reprodutibilidade/figuras/figuras/contagens_PT.pdf -text -filter -working-tree-encoding -ident
+/reprodutibilidade/figuras/figuras/exemplo_C10.png -text -filter -working-tree-encoding -ident
+/reprodutibilidade/figuras/figuras/exemplo_C48.png -text -filter -working-tree-encoding -ident
+/reprodutibilidade/figuras/figuras/exemplo_C91.png -text -filter -working-tree-encoding -ident
+/reprodutibilidade/figuras/figuras/grade_EN.pdf -text -filter -working-tree-encoding -ident
+/reprodutibilidade/figuras/figuras/grade_PT.pdf -text -filter -working-tree-encoding -ident
+/reprodutibilidade/figuras/figuras/ic_EN.pdf -text -filter -working-tree-encoding -ident
+/reprodutibilidade/figuras/figuras/ic_PT.pdf -text -filter -working-tree-encoding -ident
+/reprodutibilidade/figuras/figuras/mae_EN.pdf -text -filter -working-tree-encoding -ident
+/reprodutibilidade/figuras/figuras/mae_PT.pdf -text -filter -working-tree-encoding -ident
+/reprodutibilidade/figuras/figuras/percentis_EN.pdf -text -filter -working-tree-encoding -ident
+/reprodutibilidade/figuras/figuras/percentis_PT.pdf -text -filter -working-tree-encoding -ident
+/reprodutibilidade/figuras/gerar_figuras_artigo_v06.py -text -filter -working-tree-encoding -ident
+/reprodutibilidade/figuras/inputs/comparacoes_pareadas.csv -text -filter -working-tree-encoding -ident
+/reprodutibilidade/figuras/inputs/exemplo_C10_s06.png -text -filter -working-tree-encoding -ident
+/reprodutibilidade/figuras/inputs/exemplo_C48_s06.png -text -filter -working-tree-encoding -ident
+/reprodutibilidade/figuras/inputs/exemplo_C91_s06.png -text -filter -working-tree-encoding -ident
+/reprodutibilidade/figuras/inputs/percentis_por_nivel.csv -text -filter -working-tree-encoding -ident
+/reprodutibilidade/figuras/inputs/ranking_calibracao.csv -text -filter -working-tree-encoding -ident
+/reprodutibilidade/figuras/inputs/resultados_seis_metodos.csv -text -filter -working-tree-encoding -ident
+/reprodutibilidade/figuras/inputs/resumo_seis_metodos.csv -text -filter -working-tree-encoding -ident
+/results/auditoria_v04/auditoria.json -text -filter -working-tree-encoding -ident
+/results/auditoria_v04/baseline_particoes.csv -text -filter -working-tree-encoding -ident
+/results/auditoria_v04/casos_extremos.csv -text -filter -working-tree-encoding -ident
+/results/auditoria_v04/estatisticas_grupo.csv -text -filter -working-tree-encoding -ident
+/results/auditoria_v04/estatisticas_nivel.csv -text -filter -working-tree-encoding -ident
+/results/auditoria_v04/supercontagens.csv -text -filter -working-tree-encoding -ident
+/results/cellpose_completo_20261124_214400/SHA256SUMS.txt -text -filter -working-tree-encoding -ident
+/results/cellpose_completo_20261124_214400/por_imagem_cellpose.csv -text -filter -working-tree-encoding -ident
+/results/cellpose_completo_20261124_214400/protocolo.json -text -filter -working-tree-encoding -ident
+/results/cellpose_cstar_calibracao_20261125_081650/SHA256SUMS.txt -text -filter -working-tree-encoding -ident
+/results/cellpose_cstar_calibracao_20261125_081650/por_imagem_cellpose.csv -text -filter -working-tree-encoding -ident
+/results/cellpose_cstar_calibracao_20261125_081650/protocolo.json -text -filter -working-tree-encoding -ident
+/results/cellpose_cstar_validacao_20261125_083155/SHA256SUMS.txt -text -filter -working-tree-encoding -ident
+/results/cellpose_cstar_validacao_20261125_083155/por_imagem_cellpose.csv -text -filter -working-tree-encoding -ident
+/results/cellpose_cstar_validacao_20261125_083155/protocolo.json -text -filter -working-tree-encoding -ident
+/results/cellpose_normalizacao_piloto_20261125_080238/SHA256SUMS.txt -text -filter -working-tree-encoding -ident
+/results/cellpose_normalizacao_piloto_20261125_080238/protocolo.json -text -filter -working-tree-encoding -ident
+/results/cellpose_normalizacao_piloto_20261125_080238/teste_normalizacao.csv -text -filter -working-tree-encoding -ident
+/results/diagnostico_normalizacao/diagnostico_normalizacao.csv -text -filter -working-tree-encoding -ident
+/results/diagnostico_percentis_20261125_093005/SHA256SUMS.txt -text -filter -working-tree-encoding -ident
+/results/diagnostico_percentis_20261125_093005/fracao_vs_razao.png -text -filter -working-tree-encoding -ident
+/results/diagnostico_percentis_20261125_093005/percentis_por_imagem.csv -text -filter -working-tree-encoding -ident
+/results/diagnostico_percentis_20261125_093005/percentis_por_nivel.csv -text -filter -working-tree-encoding -ident
+/results/diagnostico_percentis_20261125_093005/protocolo.json -text -filter -working-tree-encoding -ident
+/results/entrega_final_20261125_104334/SHA256SUMS.txt -text -filter -working-tree-encoding -ident
+/results/entrega_final_20261125_104334/comparacoes_pareadas.csv -text -filter -working-tree-encoding -ident
+/results/entrega_final_20261125_104334/contagem_por_nivel.png -text -filter -working-tree-encoding -ident
+/results/entrega_final_20261125_104334/entrega_final_20261125_104334/SHA256SUMS.txt -text -filter -working-tree-encoding -ident
+/results/entrega_final_20261125_104334/entrega_final_20261125_104334/comparacoes_pareadas.csv -text -filter -working-tree-encoding -ident
+/results/entrega_final_20261125_104334/entrega_final_20261125_104334/contagem_por_nivel.png -text -filter -working-tree-encoding -ident
+/results/entrega_final_20261125_104334/entrega_final_20261125_104334/exemplo_C10_s06.png -text -filter -working-tree-encoding -ident
+/results/entrega_final_20261125_104334/entrega_final_20261125_104334/exemplo_C48_s06.png -text -filter -working-tree-encoding -ident
+/results/entrega_final_20261125_104334/entrega_final_20261125_104334/exemplo_C91_s06.png -text -filter -working-tree-encoding -ident
+/results/entrega_final_20261125_104334/entrega_final_20261125_104334/grade_calibracao.png -text -filter -working-tree-encoding -ident
+/results/entrega_final_20261125_104334/entrega_final_20261125_104334/mae_validacao.png -text -filter -working-tree-encoding -ident
+/results/entrega_final_20261125_104334/entrega_final_20261125_104334/por_imagem_bstar.csv -text -filter -working-tree-encoding -ident
+/results/entrega_final_20261125_104334/entrega_final_20261125_104334/protocolo.json -text -filter -working-tree-encoding -ident
+/results/entrega_final_20261125_104334/entrega_final_20261125_104334/resultados_seis_metodos.csv -text -filter -working-tree-encoding -ident
+/results/entrega_final_20261125_104334/entrega_final_20261125_104334/resumo_bstar.csv -text -filter -working-tree-encoding -ident
+/results/entrega_final_20261125_104334/entrega_final_20261125_104334/resumo_seis_metodos.csv -text -filter -working-tree-encoding -ident
+/results/entrega_final_20261125_104334/exemplo_C10_s06.png -text -filter -working-tree-encoding -ident
+/results/entrega_final_20261125_104334/exemplo_C48_s06.png -text -filter -working-tree-encoding -ident
+/results/entrega_final_20261125_104334/exemplo_C91_s06.png -text -filter -working-tree-encoding -ident
+/results/entrega_final_20261125_104334/grade_calibracao.png -text -filter -working-tree-encoding -ident
+/results/entrega_final_20261125_104334/mae_validacao.png -text -filter -working-tree-encoding -ident
+/results/entrega_final_20261125_104334/por_imagem_bstar.csv -text -filter -working-tree-encoding -ident
+/results/entrega_final_20261125_104334/protocolo.json -text -filter -working-tree-encoding -ident
+/results/entrega_final_20261125_104334/resultados_seis_metodos.csv -text -filter -working-tree-encoding -ident
+/results/entrega_final_20261125_104334/resumo_bstar.csv -text -filter -working-tree-encoding -ident
+/results/entrega_final_20261125_104334/resumo_seis_metodos.csv -text -filter -working-tree-encoding -ident
+/results/entrega_final_20261125_104334/watershed_bstar_calibracao_20261125_095745/por_imagem_bstar.csv -text -filter -working-tree-encoding -ident
+/results/entrega_final_20261125_104334/watershed_bstar_calibracao_20261125_095745/protocolo.json -text -filter -working-tree-encoding -ident
+/results/entrega_final_20261125_104334/watershed_bstar_calibracao_20261125_095745/ranking_calibracao.csv -text -filter -working-tree-encoding -ident
+/results/entrega_final_20261125_104334/watershed_bstar_calibracao_20261125_095745/resumo_por_grupo.csv -text -filter -working-tree-encoding -ident
+/results/entrega_final_20261125_104334/watershed_bstar_calibracao_20261125_095745/selecao_bstar.json -text -filter -working-tree-encoding -ident
+/results/reproducao_v04_20261124_201858/ambiente_e_parametros.json -text -filter -working-tree-encoding -ident
+/results/reproducao_v04_20261124_201858/por_imagem.csv -text -filter -working-tree-encoding -ident
+/results/reproducao_v04_20261124_201858/resumo_por_grupo.csv -text -filter -working-tree-encoding -ident
+/results/watershed_bstar_calibracao_20261125_095745/por_imagem_bstar.csv -text -filter -working-tree-encoding -ident
+/results/watershed_bstar_calibracao_20261125_095745/protocolo.json -text -filter -working-tree-encoding -ident
+/results/watershed_bstar_calibracao_20261125_095745/ranking_calibracao.csv -text -filter -working-tree-encoding -ident
+/results/watershed_bstar_calibracao_20261125_095745/resumo_por_grupo.csv -text -filter -working-tree-encoding -ident
+/results/watershed_bstar_calibracao_20261125_095745/selecao_bstar.json -text -filter -working-tree-encoding -ident
+/scripts/auditar_reproducao_bbbc005.py -text -filter -working-tree-encoding -ident
+/scripts/diagnosticar_normalizacao_bbbc005.py -text -filter -working-tree-encoding -ident
+/scripts/diagnosticar_percentis_por_nivel_bbbc005.py -text -filter -working-tree-encoding -ident
+/scripts/executar_cellpose_bbbc005_v1.py -text -filter -working-tree-encoding -ident
+/scripts/executar_cellpose_cstar_v1.py -text -filter -working-tree-encoding -ident
+/scripts/executar_watershed_bstar_v1.py -text -filter -working-tree-encoding -ident
+/scripts/fechar_experimentos_sin5014.py -text -filter -working-tree-encoding -ident
+/scripts/fechar_git_bstar.py -text -filter -working-tree-encoding -ident
+/scripts/gerar_manifesto_bbbc005.py -text -filter -working-tree-encoding -ident
+/scripts/testar_cellpose_bbbc005.py -text -filter -working-tree-encoding -ident
+/scripts/testar_normalizacao_cellpose_v2.py -text -filter -working-tree-encoding -ident
