@@ -16,3 +16,4 @@ __pycache__/
 .env.*
 *.log
 Thumbs.db
+results/cellpose_normalizacao_piloto_*/*.npy
