@@ -1,0 +1,2 @@
+f084397b55c101f35fd6fe7601d78ca7b6286ee4449bc99b2a6a79a94d85e0b7  protocolo.json
+82bd60b874b45da60561d05ee1f1acb48a19322e62d00f2215f8ec5a205cd19d  por_imagem_cellpose.csv
