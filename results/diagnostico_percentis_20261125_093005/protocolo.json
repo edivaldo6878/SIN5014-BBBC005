@@ -1,0 +1,17 @@
+{
+  "manifest_sha256": "7f8a8f2605fbcf161db426743d7dccc6f125a51b8e33f3c200c03b5bdeec2932",
+  "script_sha256": "92768a9058155e64e05a235fa469fdf0d55022448859772b90d5740e584faf6a",
+  "original_executor_sha256": "0f0ce4dda82d1c3226b3837c85c0ade9701f60b9bf89452f828dbd5cc9de4ae8",
+  "images": 600,
+  "numpy": "1.26.4",
+  "pandas": "3.0.6",
+  "tifffile": "2026.3.3",
+  "matplotlib": "3.11.2",
+  "percentiles": [
+    0.1,
+    1,
+    99,
+    99.9
+  ],
+  "note": "Descriptive post-hoc raw pixel analysis"
+}
