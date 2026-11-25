@@ -1,0 +1,66 @@
+{
+  "purpose": "Post-hoc normalization pilot",
+  "partition": "calibracao",
+  "keys": [
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      5,
+      2
+    ]
+  ],
+  "diameter": 60.52363315435602,
+  "configs": {
+    "N0_control": true,
+    "N1_percentile": {
+      "percentile": [
+        0.1,
+        99.9
+      ]
+    }
+  },
+  "original_params": {
+    "channels": [
+      0,
+      0
+    ],
+    "normalize": true,
+    "do_3D": false,
+    "flow_threshold": 0.4,
+    "cellprob_threshold": 0.0,
+    "min_size": 15,
+    "batch_size": 8,
+    "resample": true,
+    "augment": false
+  },
+  "weights_sha256": "89ca45e4a45048d5010d29621466b1274b91b3dcb9714dce9f9e90a9a8671303",
+  "manifest_sha256": "7f8a8f2605fbcf161db426743d7dccc6f125a51b8e33f3c200c03b5bdeec2932",
+  "baseline_sha256": "d945f06a4e9b84bde6e83813801fcec8723a85f882f2e0c8d793644b42e6aa62",
+  "script_sha256": "a4cb50cb495d05bb5b275919e7ef1c9007eccef39d4cb11d175462005141306f",
+  "versions": {
+    "cellpose": "3.1.1.2",
+    "torch": "2.7.1+cpu",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "tifffile": "2026.3.3",
+    "opencv-python-headless": "4.11.0.86",
+    "psutil": "7.2.2",
+    "numba": "0.68.1",
+    "llvmlite": "0.50.0"
+  },
+  "python": "3.11.18 | packaged by conda-forge | (main, Oct 26 2026, 11:29:07) [MSC v.1944 64 bit (AMD64)]",
+  "seed": 0,
+  "threads": 4,
+  "interop_threads": 1,
+  "expected_rows": 8
+}
