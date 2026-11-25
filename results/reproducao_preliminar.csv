@@ -1,4 +1,4 @@
-contagem_esperada,amostra,foco,canal,n8_historico,n8_reproduzido,watershed_historico,watershed_reproduzido
-10,1,1,2,8,8,10,10
-48,1,1,2,22,22,41,41
-91,1,1,2,10,10,47,47
+﻿"contagem_esperada","amostra","n8_ref","n8_ref_erro","ws_n","ws_erro"
+"10","1","8","-2","10","0"
+"48","1","22","-26","41","-7"
+"91","1","10","-81","47","-44"

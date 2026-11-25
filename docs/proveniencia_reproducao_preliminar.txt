@@ -1,0 +1,5 @@
+﻿Origem: results/reproducao_v04_20261124_201858/por_imagem.csv
+Selecao: C10_s01, C48_s01 e C91_s01.
+Resultados regenerados diretamente do CSV experimental.
+Colunas historicas removidas por ausencia de comprovacao individual independente.
+A versao anterior permanece preservada no historico Git.
