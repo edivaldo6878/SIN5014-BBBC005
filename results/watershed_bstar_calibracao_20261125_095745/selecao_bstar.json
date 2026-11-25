@@ -1,0 +1,14 @@
+{
+  "selected": "B1",
+  "alpha": 0.35,
+  "beta": 0.2,
+  "mae": 13.616666666666667,
+  "absolute_error_sum": 1634,
+  "calibration_images": 120,
+  "calibration_csv_sha256": "e1e27497e6d6ad9cbc0e242937bedc952545796166556cce1da6d93d23dd34f7",
+  "protocol_sha256": "78812b524746a94fd6aaa50e385587b2f94d14006862a03a85652ef1642e9500",
+  "executor_sha256": "42070081a24b5120c820f05fa0d044ea0bb98ac0a2b4f2458340494e676290b1",
+  "baseline_sha256": "9eba9b66a0dd8663c81aebcbb06b68cb41e88c15e859d29285e5c3875561497d",
+  "baseline_controls": 120,
+  "note": "Selected exclusively on calibration"
+}

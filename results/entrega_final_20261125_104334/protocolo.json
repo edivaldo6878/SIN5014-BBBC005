@@ -1,0 +1,29 @@
+{
+  "partition": "validacao",
+  "selected": {
+    "selected": "B1",
+    "alpha": 0.35,
+    "beta": 0.2,
+    "mae": 13.616666666666667,
+    "absolute_error_sum": 1634,
+    "calibration_images": 120,
+    "calibration_csv_sha256": "e1e27497e6d6ad9cbc0e242937bedc952545796166556cce1da6d93d23dd34f7",
+    "protocol_sha256": "78812b524746a94fd6aaa50e385587b2f94d14006862a03a85652ef1642e9500",
+    "executor_sha256": "42070081a24b5120c820f05fa0d044ea0bb98ac0a2b4f2458340494e676290b1",
+    "baseline_sha256": "9eba9b66a0dd8663c81aebcbb06b68cb41e88c15e859d29285e5c3875561497d",
+    "baseline_controls": 120,
+    "note": "Selected exclusively on calibration"
+  },
+  "selection_sha256": "0828a27f6e64ff815c6d45c5f30d4f29f322626b7f06b6411e35864b40bf4de7",
+  "script_sha256": "9e366e8afbb1a3d75f369393e53e8ecf3a758d18e20d00b935611bb801b869af",
+  "manifest_sha256": "7f8a8f2605fbcf161db426743d7dccc6f125a51b8e33f3c200c03b5bdeec2932",
+  "seed": 0,
+  "bootstrap": 2000,
+  "source_hashes": {
+    "por_imagem.csv:reproducao_v04_20261124_201858": "9eba9b66a0dd8663c81aebcbb06b68cb41e88c15e859d29285e5c3875561497d",
+    "por_imagem_cellpose.csv:cellpose_completo_20261124_214400": "d945f06a4e9b84bde6e83813801fcec8723a85f882f2e0c8d793644b42e6aa62",
+    "por_imagem_cellpose.csv:cellpose_cstar_calibracao_20261125_081650": "98519c486553207ea274462a44c05cd686acd84429d97145124f76a004ece8b7",
+    "por_imagem_cellpose.csv:cellpose_cstar_validacao_20261125_083155": "82bd60b874b45da60561d05ee1f1acb48a19322e62d00f2215f8ec5a205cd19d"
+  },
+  "note": "Retrospective internal validation, no new tuning"
+}

@@ -1,0 +1,67 @@
+{
+  "experiment": "Watershed Bstar",
+  "partition": "calibracao",
+  "samples": "s01-s05",
+  "images": 120,
+  "expected_rows": 1080,
+  "grid": {
+    "B1": [
+      0.35,
+      0.2
+    ],
+    "B2": [
+      0.35,
+      0.3
+    ],
+    "B3": [
+      0.35,
+      0.4
+    ],
+    "B4": [
+      0.5,
+      0.2
+    ],
+    "B5": [
+      0.5,
+      0.3
+    ],
+    "B6": [
+      0.5,
+      0.4
+    ],
+    "B7": [
+      0.65,
+      0.2
+    ],
+    "B8": [
+      0.65,
+      0.3
+    ],
+    "B9": [
+      0.65,
+      0.4
+    ]
+  },
+  "control": "B5",
+  "selection": "minimum absolute error sum",
+  "tie_break": "B5 first, then lowest index",
+  "median_filter": 3,
+  "otsu": true,
+  "remove_max_size": 20,
+  "removal_connectivity": 1,
+  "labeling_connectivity": 8,
+  "watershed_connectivity": 1,
+  "exclude_border": false,
+  "manifest_sha256": "7f8a8f2605fbcf161db426743d7dccc6f125a51b8e33f3c200c03b5bdeec2932",
+  "baseline_sha256": "9eba9b66a0dd8663c81aebcbb06b68cb41e88c15e859d29285e5c3875561497d",
+  "executor_sha256": "42070081a24b5120c820f05fa0d044ea0bb98ac0a2b4f2458340494e676290b1",
+  "methodological_protocol_sha256": "4847ae97649f6d9f40b0f792658f82d3eff3de858f2df30805bdfca1814cf308",
+  "python": "3.13.18 | packaged by conda-forge | (main, Oct 26 2026, 11:30:40) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "skimage": "0.26.0",
+  "pandas": "3.1.0",
+  "tifffile": "2026.10.15",
+  "note": "Retrospective calibration only"
+}
