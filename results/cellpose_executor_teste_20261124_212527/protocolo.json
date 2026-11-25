@@ -1,0 +1,55 @@
+{
+  "model": "nuclei",
+  "weights_sha256": "89ca45e4a45048d5010d29621466b1274b91b3dcb9714dce9f9e90a9a8671303",
+  "weights_bytes": 26563614,
+  "manifest_sha256": "7f8a8f2605fbcf161db426743d7dccc6f125a51b8e33f3c200c03b5bdeec2932",
+  "executor_sha256": "0f0ce4dda82d1c3226b3837c85c0ade9701f60b9bf89452f828dbd5cc9de4ae8",
+  "python": "3.11.18 | packaged by conda-forge | (main, Oct 26 2026, 11:29:07) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "versions": {
+    "cellpose": "3.1.1.2",
+    "torch": "2.7.1+cpu",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "tifffile": "2026.3.3",
+    "opencv-python-headless": "4.11.0.86",
+    "psutil": "7.2.2",
+    "numba": "0.68.1",
+    "llvmlite": "0.50.0"
+  },
+  "device": "cpu",
+  "threads": 4,
+  "interop_threads": 1,
+  "seed": 0,
+  "params": {
+    "channels": [
+      0,
+      0
+    ],
+    "normalize": true,
+    "do_3D": false,
+    "flow_threshold": 0.4,
+    "cellprob_threshold": 0.0,
+    "min_size": 15,
+    "batch_size": 8,
+    "resample": true,
+    "augment": false
+  },
+  "diameters": {
+    "C0_fixed17": 17.0,
+    "C1_calibrated": 60.52363315435602
+  },
+  "calibration_keys": [
+    "C1_s01",
+    "C1_s02",
+    "C1_s03",
+    "C1_s04",
+    "C1_s05"
+  ],
+  "mode": "pilot",
+  "expected_rows": 6,
+  "timing": "model.eval wall seconds, excludes input, metrics and warmup; no tracemalloc",
+  "warmup": "C10_s01 one inference per configuration per invocation, excluded",
+  "memory": "RSS before/after; Windows peak_wset is cumulative process lifetime peak, not per-image",
+  "note": "C1 calibration uses five reference masks; no retraining; retrospective internal validation"
+}
